@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mahdi Ni’am Ma’ruf — Robotics & Automation Engineer</title>
+<meta name="description" content="Portofolio Mahdi Ni’am Ma’ruf: lulusan Teknologi Rekayasa Robotika Polibatam, Ahli K3 Umum, tersedia mulai 24 Desember 2026.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2309090B'/%3E%3Ctext x='32' y='42' font-size='26' font-family='Arial' font-weight='700' fill='%232F7BFF' text-anchor='middle'%3EMNM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#09090B;--sf:#121215;--sf2:#18181d;--ln:#26262d;--tx:#ededf0;--mu:#9a9aa6;--ac:#2F7BFF;--ac2:#7fb0ff;--r:14px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{background:var(--bg);color:var(--tx);font:16px/1.65 Figtree,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Bricolage Grotesque',Figtree,sans-serif;line-height:1.1;letter-spacing:-.02em}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--ac2);outline-offset:3px;border-radius:6px}
+.w{max-width:1080px;margin:0 auto;padding:0 22px}
+section{padding:84px 0;border-top:1px solid var(--ln)}
+h2{font-size:clamp(28px,4vw,40px);margin-bottom:34px}
+p.mu,.mu{color:var(--mu)}
+nav{position:sticky;top:0;z-index:9;background:rgba(9,9,11,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--ln)}
+nav .w{display:flex;align-items:center;gap:22px;height:62px}
+.logo{font:800 20px 'Bricolage Grotesque';letter-spacing:-.03em}.logo b{color:var(--ac)}
+nav ul{display:flex;gap:20px;list-style:none;padding:0;margin-left:auto;font-size:14px;color:var(--mu)}
+nav ul a:hover{color:var(--tx)}
+.lang{display:flex;border:1px solid var(--ln);border-radius:99px;padding:3px;background:var(--sf)}
+.lang button{border:0;background:none;color:var(--mu);font:600 12px Figtree;padding:5px 11px;border-radius:99px;cursor:pointer}
+.lang button[aria-pressed=true]{background:var(--ac);color:#fff}
+.hero{padding:70px 0 90px;border:0}
+.hg{display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:center}
+.av{display:inline-flex;align-items:center;gap:9px;font-size:14px;background:var(--sf);border:1px solid var(--ln);padding:7px 14px;border-radius:99px;margin-bottom:24px}
+.av i{width:8px;height:8px;border-radius:50%;background:#34d399;box-shadow:0 0 0 0 #34d399;animation:p 2.2s infinite}
+@keyframes p{70%{box-shadow:0 0 0 9px transparent}}
+h1{font-size:clamp(40px,7vw,76px);font-weight:800}
+h1 em{font-style:normal;color:var(--ac)}
+.hero p.lead{font-size:19px;color:var(--mu);max-width:54ch;margin:22px 0 30px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.b{display:inline-flex;gap:8px;align-items:center;padding:13px 22px;border-radius:12px;font-weight:600;font-size:15px;border:1px solid var(--ln);background:var(--sf);transition:.2s}
+.b:hover{border-color:var(--ac)}
+.b.p{background:var(--ac);border-color:var(--ac);color:#fff}.b.p:hover{background:#4a8dff}
+.ph{position:relative;max-width:340px;justify-self:end}
+.ph img{width:100%;display:block;border-radius:22px;border:1px solid var(--ln);aspect-ratio:3/4;object-fit:cover}
+.ph::after{content:"";position:absolute;inset:14px -14px -14px 14px;border:1px solid var(--ac);border-radius:22px;z-index:-1;opacity:.5}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--ln);border:1px solid var(--ln);border-radius:var(--r);overflow:hidden;margin-top:60px}
+.stats div{background:var(--sf);padding:22px}
+.stats b{display:block;font:800 34px 'Bricolage Grotesque';color:var(--tx)}
+.stats span{font-size:13px;color:var(--mu)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.about p{margin-bottom:14px;color:#c9c9d1}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{font-size:13px;padding:5px 12px;border:1px solid var(--ln);border-radius:99px;background:var(--sf);color:#c9c9d1}
+.tl{border-left:1px solid var(--ln);padding-left:26px;position:relative}
+.tl::before{content:"";position:absolute;left:-5px;top:8px;width:9px;height:9px;border-radius:50%;background:var(--ac)}
+.tl h3{font-size:24px}.tl .mt{color:var(--ac2);font-size:14px;margin:6px 0 16px}
+.tl li{margin:0 0 10px 18px;color:#c9c9d1}
+.pg{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.pc{background:var(--sf);border:1px solid var(--ln);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:.2s}
+.pc:hover{border-color:#3a3a46}
+.pc.f{grid-column:1/-1;display:grid;grid-template-columns:.9fr 1.1fr}
+.mp{aspect-ratio:16/9;background:repeating-linear-gradient(135deg,var(--sf2) 0 14px,var(--sf) 14px 28px);display:grid;place-items:center;color:var(--mu);font-size:13px;border-bottom:1px solid var(--ln)}
+.pc.f .mp{aspect-ratio:auto;border:0;border-right:1px solid var(--ln)}
+.pb{padding:24px}
+.pb h3{font-size:22px;margin-bottom:4px}.pb .yr{font-size:13px;color:var(--ac2);margin-bottom:12px}
+.pb p{color:#c9c9d1;font-size:15px;margin-bottom:14px}
+.mp{position:relative;overflow:hidden}.mp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.88;transition:.25s}.mp:hover img{opacity:1;transform:scale(1.03)}.pl{position:relative;width:46px;height:46px;border-radius:50%;background:rgba(9,9,11,.75);border:1px solid var(--ac);display:grid;place-items:center;color:#fff;font-size:15px;padding-left:3px}.vl{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:16px;font-size:14px}.vl a{color:var(--ac2);border-bottom:1px solid transparent}.vl a:hover{border-color:var(--ac2)}.pb .tags span{font-size:12px;padding:3px 10px}
+.sk{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.sk div{background:var(--sf);border:1px solid var(--ln);border-radius:var(--r);padding:22px}
+.sk h3{font-size:17px;margin-bottom:14px}
+.cl{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;list-style:none;padding:0}
+.cl li{background:var(--sf);border:1px solid var(--ln);border-radius:12px;padding:16px 18px}
+.cl b{display:block;font-weight:600}.cl span{font-size:14px;color:var(--mu)}
+.ac3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:40px}
+.ac3 div{border-left:3px solid var(--ac);padding:4px 0 4px 16px}
+.ac3 b{display:block;font:700 18px 'Bricolage Grotesque'}.ac3 span{font-size:14px;color:var(--mu)}
+.ct{background:var(--sf);border:1px solid var(--ln);border-radius:24px;padding:clamp(28px,5vw,56px)}
+.ct h2{font-size:clamp(30px,5vw,52px);margin-bottom:14px}
+.ct .btns{margin-top:28px}
+footer{padding:28px 0;border-top:1px solid var(--ln);color:var(--mu);font-size:14px}
+@media(max-width:820px){nav ul{display:none}.lang{margin-left:auto}.hg,.two,.pc.f{grid-template-columns:1fr}.ph{justify-self:start;max-width:260px;order:-1}.stats{grid-template-columns:1fr 1fr}.pg,.sk,.cl,.ac3{grid-template-columns:1fr}.pc.f .mp{aspect-ratio:16/9;border-right:0;border-bottom:1px solid var(--ln)}section{padding:60px 0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+
+body{background:var(--bg)}
+.hero{position:relative;isolation:isolate}
+.hero::before{content:"";position:absolute;inset:-60px 0 auto 0;height:640px;z-index:-1;background:radial-gradient(620px 360px at 82% 28%,rgba(47,123,255,.20),transparent 70%),radial-gradient(500px 300px at 8% 0%,rgba(127,176,255,.07),transparent 70%);pointer-events:none}
+.ph::before{content:"";position:absolute;inset:-30px;background:radial-gradient(closest-side,rgba(47,123,255,.28),transparent);z-index:-2;filter:blur(24px)}
+.ph img{box-shadow:0 30px 60px -20px rgba(0,0,0,.7)}
+h2::after{content:"";display:block;width:44px;height:3px;border-radius:3px;background:var(--ac);margin-top:14px}
+.ct h2::after{display:none}
+nav ul a{padding:6px 2px;border-bottom:2px solid transparent;transition:.2s}
+nav ul a.on{color:var(--tx);border-color:var(--ac)}
+.b{box-shadow:0 1px 0 rgba(255,255,255,.04) inset}.b.p{box-shadow:0 8px 24px -8px rgba(47,123,255,.7)}
+.stats b{background:linear-gradient(180deg,#fff,#aab4c8);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pc{background:linear-gradient(180deg,var(--sf2),var(--sf))}.pc:hover{transform:translateY(-3px);box-shadow:0 24px 50px -24px rgba(47,123,255,.45)}
+.sk div,.cl li{transition:.2s}.sk div:hover,.cl li:hover{border-color:#3a3a46;background:var(--sf2)}
+.sub{font-size:20px;margin:40px 0 18px}
+.imp{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.imp div{background:var(--sf);border:1px solid var(--ln);border-top:3px solid var(--ac);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:10px}
+.imp h4{font:700 18px 'Bricolage Grotesque'}.imp p{font-size:15px;color:#c9c9d1;flex:1}.imp b{font-size:14px;color:var(--ac2);font-weight:600}
+.deck{display:flex;gap:24px;align-items:center;justify-content:space-between;margin-top:26px;padding:26px 30px;border:1px solid var(--ln);border-radius:var(--r);background:linear-gradient(110deg,rgba(47,123,255,.16),var(--sf) 60%)}
+.deck h3{font-size:22px;margin-bottom:4px}
+dialog{border:1px solid var(--ln);border-radius:18px;background:var(--sf);color:var(--tx);padding:0;width:min(1040px,94vw);max-height:92vh;box-shadow:0 40px 100px rgba(0,0,0,.7)}
+dialog::backdrop{background:rgba(5,5,7,.82);backdrop-filter:blur(6px)}
+.mh{display:flex;align-items:center;gap:12px;padding:12px 14px;border-bottom:1px solid var(--ln)}
+.mnav{display:flex;flex-wrap:wrap;gap:6px;flex:1}
+.mnav button{border:1px solid var(--ln);background:var(--bg);color:var(--mu);font:500 13px Figtree;padding:5px 12px;border-radius:99px;cursor:pointer}
+.mnav button[aria-current=true]{background:var(--ac);border-color:var(--ac);color:#fff}
+#mx{font-size:13px;color:var(--ac2);white-space:nowrap}
+#mc{border:0;background:var(--sf2);color:var(--tx);width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:15px}
+.mbd{aspect-ratio:16/9;background:#000;max-height:calc(92vh - 64px)}
+.mbd iframe{width:100%;height:100%;border:0;display:block}
+@media(max-width:820px){.imp{grid-template-columns:1fr}.deck{flex-direction:column;align-items:flex-start}}
+:root{--tx2:#c9c9d1;--nv:rgba(9,9,11,.82)}
+html[data-theme=light]{--bg:#FAFAFA;--sf:#fff;--sf2:#f4f4f5;--ln:#e4e4e7;--tx:#09090B;--mu:#5b5b66;--ac:#1f6bff;--ac2:#1456d6;--tx2:#3f3f46;--nv:rgba(250,250,250,.86)}
+html[data-theme=light] .stats b{background:none;color:var(--tx)}html[data-theme=light] .hero::before{opacity:.5}
+.ib{border:1px solid var(--ln);background:var(--sf);color:var(--mu);border-radius:99px;height:34px;min-width:34px;padding:0 10px;font:600 12px Figtree;cursor:pointer}.ib:hover{color:var(--tx)}
+.b.sm{padding:8px 14px;font-size:13px;border-radius:10px;cursor:pointer;font-family:inherit}button.b{cursor:pointer;font-family:inherit}
+.st{background:var(--sf);border:1px solid var(--ln);border-radius:18px;padding:16px;margin-bottom:30px}
+.stt,.flt{display:flex;gap:8px;flex-wrap:wrap}.stt{margin-bottom:14px}.flt{margin-bottom:18px}
+.stt button,.flt button,.stl button{border:1px solid var(--ln);background:var(--bg);color:var(--mu);font:500 13px Figtree;padding:7px 14px;border-radius:99px;cursor:pointer}
+[aria-pressed=true]{background:var(--ac)!important;border-color:var(--ac)!important;color:#fff!important}
+.stg{display:grid;grid-template-columns:1.7fr 1fr;gap:14px}
+.stf{aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden;position:relative}
+.stf iframe,.poster{position:absolute;inset:0;width:100%;height:100%;border:0}
+.poster{padding:0;background:#000;cursor:pointer;display:grid;place-items:center}.poster img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85}
+.pl.big{width:68px;height:68px;font-size:22px}
+.stl{display:flex;flex-direction:column;gap:6px;max-height:380px;overflow:auto}
+.stl button{text-align:left;border-radius:10px;color:var(--tx2)}.stl button[aria-current=true]{border-color:var(--ac);color:var(--tx)}
+.stc{display:flex;gap:10px;align-items:center;margin-top:12px;flex-wrap:wrap}.stc input{flex:1;min-width:200px}
+input,select,textarea{background:var(--bg);border:1px solid var(--ln);color:var(--tx);border-radius:10px;padding:10px 14px;font:15px Figtree;width:100%}
+.flt button{background:var(--bg)}
+.lb{border:0;background:none;color:var(--ac2);font:inherit;font-size:14px;cursor:pointer;padding:0}.lb:hover{text-decoration:underline}
+.csb{padding:22px;display:grid;gap:16px}.csb div{border-left:3px solid var(--ac);padding-left:14px;color:var(--tx2)}.csb b{display:block;color:var(--tx);margin-bottom:4px}
+.vt{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:16px}.vt .flt{margin:0}.vt input{width:240px;margin-left:auto}
+.cr{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.crd{background:var(--sf);border:1px solid var(--ln);border-radius:12px;padding:16px 18px;display:flex;flex-direction:column;gap:10px;justify-content:space-between}.crd b{font-weight:600}.crd span{display:block;font-size:13px;color:var(--mu)}.crd .btns{gap:8px}
+.th{font-size:clamp(22px,3vw,30px);margin-bottom:10px}
+.mets{display:grid;gap:12px;align-content:start}.mets div{background:var(--sf);border:1px solid var(--ln);border-radius:var(--r);padding:18px}.mets b{display:block;font:800 32px 'Bricolage Grotesque'}.mets span{color:var(--mu);font-size:13px}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.flow button{text-align:left;background:var(--sf);border:1px solid var(--ln);color:var(--tx);border-radius:var(--r);padding:16px;cursor:pointer;font:600 15px Figtree;position:relative}.flow button small{display:block;font-weight:400;color:var(--mu);margin-top:4px}
+.flow button:not(:last-child)::after{content:"›";position:absolute;right:-9px;top:50%;transform:translateY(-50%);color:var(--ac2);font-size:20px;z-index:1}
+.fd{margin-top:14px;background:var(--sf);border:1px solid var(--ln);border-radius:var(--r);padding:20px;color:var(--tx2)}
+.rdw{display:grid;grid-template-columns:360px 1fr;gap:30px;align-items:center;margin-bottom:34px}.rdi{background:var(--sf);border:1px solid var(--ln);border-radius:var(--r);padding:22px;color:var(--tx2)}.rdi b{display:block;font:700 22px 'Bricolage Grotesque';color:var(--tx)}.rdi small{color:var(--mu)}
+#rd svg{width:100%;height:auto}#rd text{fill:var(--tx2);font:600 12px Figtree;cursor:pointer}#rd .ax,#rd .rg{stroke:var(--ln);fill:none}#rd .pg2{fill:rgba(47,123,255,.25);stroke:var(--ac);stroke-width:2}#rd circle{fill:var(--ac);cursor:pointer}
+.qc{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:34px}.qc textarea{grid-column:1/-1;min-height:90px;resize:vertical}.qc .btns{grid-column:1/-1;margin:0}
+.ts{position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);background:var(--tx);color:var(--bg);padding:11px 18px;border-radius:12px;font-weight:600;font-size:14px;opacity:0;pointer-events:none;transition:.25s;z-index:99}.ts.on{opacity:1;transform:translate(-50%,0)}
+#cp{width:min(620px,92vw)}#cpq{border:0;border-bottom:1px solid var(--ln);border-radius:0;padding:16px 18px}
+#cpl{list-style:none;padding:8px;margin:0;max-height:50vh;overflow:auto}#cpl li{padding:10px 12px;border-radius:8px;cursor:pointer;font-size:14px;display:flex;justify-content:space-between;gap:10px;color:var(--tx2)}#cpl li.on{background:var(--sf2);color:var(--tx)}#cpl small{color:var(--mu);white-space:nowrap}
+#cs{width:min(680px,94vw)}#cs .mh b{flex:1;padding-left:6px}
+.deck .btns{flex-shrink:0}
+@media(max-width:820px){.stg,.rdw,.qc,.cr{grid-template-columns:1fr}.flow{grid-template-columns:1fr 1fr}.flow button::after{display:none}.vt input{width:100%;margin:0}.stl{max-height:200px}.deck .btns{flex-shrink:1}}
+</style>
+</head>
+<body>
+<nav><div class="w">
+<a class="logo" href="#top" aria-label="MNM">M<b>N</b>M</a>
+<ul>
+<li><a href="#about" data-id="Tentang" data-en="About">Tentang</a></li>
+<li><a href="#exp" data-id="Pengalaman" data-en="Experience">Pengalaman</a></li>
+<li><a href="#projects" data-id="Proyek" data-en="Projects">Proyek</a></li>
+<li><a href="#thesis" data-id="Tesis" data-en="Thesis">Tesis</a></li>
+<li><a href="#skills" data-id="Keahlian" data-en="Skills">Keahlian</a></li>
+<li><a href="#certs" data-id="Sertifikat" data-en="Certificates">Sertifikat</a></li>
+<li><a href="#contact" data-id="Kontak" data-en="Contact">Kontak</a></li>
+</ul>
+<div class="lang" role="group" aria-label="Language"><button data-l="id" aria-pressed="true">ID</button><button data-l="en" aria-pressed="false">EN</button></div>
+<button class="ib" id="thm" aria-label="Theme">◐</button><button class="ib" id="ckb" aria-label="Command palette">⌘K</button>
+</div></nav>
+
+<main id="top">
+<header class="w hero">
+<div class="hg">
+<div>
+<div class="av"><i></i><span data-id="Tersedia mulai 24 Desember 2026 · Batam, terbuka untuk relokasi" data-en="Available from 24 December 2026 · Batam, open to relocation">Tersedia mulai 24 Desember 2026 · Batam, terbuka untuk relokasi</span></div>
+<h1 data-id="Saya membangun dan merawat mesin otomasi yang <em>bekerja aman</em> dan tanpa henti." data-en="I build and maintain automation machines that <em>run safely</em> and without stopping.">Saya membangun dan merawat mesin otomasi yang <em>bekerja aman</em> dan tanpa henti.</h1>
+<p class="lead" data-id="Mahdi Ni’am Ma’ruf, S.Tr.T., lulusan Teknologi Rekayasa Robotika Politeknik Negeri Batam (IPK 3,83). Berpengalaman di maintenance mesin PCBA, kelistrikan, PLC, dan robotika, serta bersertifikat Ahli K3 Umum." data-en="Mahdi Ni’am Ma’ruf, S.Tr.T., Robotics Engineering Technology graduate of Politeknik Negeri Batam (GPA 3.83). Experienced in PCBA machine maintenance, electrical work, PLC and robotics, and a certified General OHS (K3) Expert.">Mahdi Ni’am Ma’ruf, S.Tr.T., lulusan Teknologi Rekayasa Robotika Politeknik Negeri Batam (IPK 3,83). Berpengalaman di maintenance mesin PCBA, kelistrikan, PLC, dan robotika, serta bersertifikat Ahli K3 Umum.</p>
+<div class="btns">
+<a class="b p" id="cvbtn" href="cv/Mahdi_Niam_Maruf_CV_ID.pdf" download><span data-id="Unduh CV" data-en="Download CV">Unduh CV</span></a>
+<a class="b" id="cvview" data-md="1" href="cv/Mahdi_Niam_Maruf_CV_ID.pdf" data-id="Pratinjau CV" data-en="Preview CV">Pratinjau CV</a>
+<a class="b" href="#contact" data-id="Hubungi saya" data-en="Contact me">Hubungi saya</a>
+<a class="b" href="#projects" data-id="Lihat proyek" data-en="View projects">Lihat proyek</a>
+</div>
+</div>
+<div class="ph"><img src="assets/mahdi.jpg" alt="Foto Mahdi Ni’am Ma’ruf" width="520" height="693"></div>
+</div>
+<div class="stats">
+<div><b>3,83</b><span data-id="IPK dari 4,00 (Cum Laude)" data-en="GPA out of 4.00 (Cum Laude)">IPK dari 4,00 (Cum Laude)</span></div>
+<div><b>K3</b><span data-id="Ahli K3 Umum (SKKNI)" data-en="Certified General OHS Expert (SKKNI)">Ahli K3 Umum (SKKNI)</span></div>
+<div><b>645</b><span data-id="Skor TOEIC (ETS, 2026)" data-en="TOEIC score (ETS, 2026)">Skor TOEIC (ETS, 2026)</span></div>
+<div><b>3×</b><span data-id="Podium kompetisi: KRI, PII, PBL Expo" data-en="Competition podiums: KRI, PII, PBL Expo">Podium kompetisi: KRI, PII, PBL Expo</span></div>
+</div>
+</header>
+
+<section id="about"><div class="w two">
+<div class="about">
+<h2 data-id="Tentang saya" data-en="About me">Tentang saya</h2>
+<p data-id="Saya terbiasa bekerja di lantai produksi: membaca skematik, merakit wiring, mencari akar masalah secara terstruktur, lalu memperbaiki proses agar masalahnya tidak berulang." data-en="I am used to working on the production floor: reading schematics, assembling wiring, finding root causes in a structured way, then improving the process so the problem does not come back.">Saya terbiasa bekerja di lantai produksi: membaca skematik, merakit wiring, mencari akar masalah secara terstruktur, lalu memperbaiki proses agar masalahnya tidak berulang.</p>
+<p data-id="Di luar pekerjaan, saya membangun robot dan sistem IoT bersama tim BRAIL, dari fabrikasi mekanik, elektronik, sampai perangkat lunak. Karena itu saya nyaman bekerja lintas disiplin." data-en="Outside work, I build robots and IoT systems with the BRAIL team, from mechanical fabrication and electronics to software. That is why I am comfortable working across disciplines.">Di luar pekerjaan, saya membangun robot dan sistem IoT bersama tim BRAIL, dari fabrikasi mekanik, elektronik, sampai perangkat lunak. Karena itu saya nyaman bekerja lintas disiplin.</p>
+<p data-id="Saya terbuka untuk peran maintenance, otomasi, robotika, kelistrikan, dan K3, di Batam maupun di luar Batam." data-en="I am open to maintenance, automation, robotics, electrical and safety roles, in Batam or elsewhere.">Saya terbuka untuk peran maintenance, otomasi, robotika, kelistrikan, dan K3, di Batam maupun di luar Batam.</p>
+</div>
+<div>
+<h2 data-id="Pendidikan" data-en="Education">Pendidikan</h2>
+<div class="tl"><h3>Politeknik Negeri Batam</h3>
+<div class="mt" data-id="S.Tr.T. Teknologi Rekayasa Robotika · 2022–2026" data-en="Bachelor of Applied Eng. (S.Tr.T.) Robotics Engineering Technology · 2022–2026">S.Tr.T. Teknologi Rekayasa Robotika · 2022–2026</div>
+<p class="mu" data-id="SMA Negeri 4 Batam (IPA) 2019–2022. IPK 3,83/4,00 (Cum Laude), lulus 24 Agustus 2026. Awardee Beasiswa Kepulauan Riau 2025 (jalur prestasi). Mata kuliah: otomasi industri, akuisisi data & sensor, sistem elektronika, K3, peralatan mesin." data-en="SMA Negeri 4 Batam (Science) 2019–2022. GPA 3.83/4.00 (Cum Laude), graduated 24 August 2026. Awardee of Beasiswa Kepulauan Riau 2025 (achievement pathway). Coursework: industrial automation, data & sensor acquisition, electronic systems, OHS, machine tools.">IPK 3,83/4,00 (Cum Laude), lulus 24 Agustus 2026. Awardee Beasiswa Kepulauan Riau 2025 (jalur prestasi). Mata kuliah: otomasi industri, akuisisi data & sensor, sistem elektronika, K3, peralatan mesin.</p></div>
+</div>
+</div></section>
+
+<section id="exp"><div class="w">
+<h2 data-id="Pengalaman kerja" data-en="Work experience">Pengalaman kerja</h2>
+<div class="tl"><h3>Maintenance Engineering Intern</h3>
+<div class="mt">PT Siix Electronics Indonesia · <span data-id="Januari – Desember 2026" data-en="January – December 2026">Januari – Desember 2026</span></div>
+<ul>
+<li data-id="Setup, preventive maintenance, troubleshooting, dan continuous improvement pada mesin PCBA: Laser Marking, Adhesive, NPM, AOI, Wire Bonding, FCT Tester." data-en="Setup, preventive maintenance, troubleshooting and continuous improvement on PCBA machines: Laser Marking, Adhesive, NPM, AOI, Wire Bonding, FCT Tester.">Setup, preventive maintenance, troubleshooting, dan continuous improvement pada mesin PCBA: Laser Marking, Adhesive, NPM, AOI, Wire Bonding, FCT Tester.</li>
+<li data-id="Mengelola spare part dan perbaikan jig untuk menekan risiko downtime." data-en="Managed spare parts and jig repairs to reduce downtime risk.">Mengelola spare part dan perbaikan jig untuk menekan risiko downtime.</li>
+</ul></div>
+<h3 class="sub" data-id="Perbaikan yang saya buat di lantai produksi" data-en="Improvements I delivered on the production floor">Perbaikan yang saya buat di lantai produksi</h3>
+<div class="imp">
+<div><h4>Cleaning Protective Sheet Reminder</h4><p data-id="Alarm menyala di akhir tiap siklus. Mesin hanya jalan lagi setelah operator membersihkan protective sheet dan menekan tombol konfirmasi kuning." data-en="An alarm sounds at the end of every cycle. The machine resumes only after the operator cleans the protective sheet and presses the yellow confirm button.">Alarm menyala di akhir tiap siklus. Mesin hanya jalan lagi setelah operator membersihkan protective sheet dan menekan tombol konfirmasi kuning.</p><b data-id="SOP dipatuhi, reject dan limbah material turun" data-en="SOP enforced, fewer rejects and less material waste">SOP dipatuhi, reject dan limbah material turun</b></div>
+<div><h4>Automatic Glue Application</h4><p data-id="Kontrol mesin dispensing lem diotomasi (relay self-holding 24V DC) untuk memutus suplai udara di akhir tiap siklus." data-en="The glue dispensing control was automated (24V DC self-holding relay) to cut the air supply at the end of each cycle.">Kontrol mesin dispensing lem diotomasi (relay self-holding 24V DC) untuk memutus suplai udara di akhir tiap siklus.</p><b data-id="Overspray hilang, pemakaian lem dan biaya turun" data-en="Overspray eliminated, lower glue use and cost">Overspray hilang, pemakaian lem dan biaya turun</b></div>
+<div><h4>Battery Tester Machine</h4><p data-id="Merakit wiring mesin berdasarkan skematik teknis sehingga dua mesin tester dapat beroperasi bersamaan." data-en="Assembled the machine wiring from technical schematics so two tester machines can run at the same time.">Merakit wiring mesin berdasarkan skematik teknis sehingga dua mesin tester dapat beroperasi bersamaan.</p><b data-id="Waktu pengujian lebih singkat, output produksi naik" data-en="Shorter test time, higher production output">Waktu pengujian lebih singkat, output produksi naik</b></div>
+</div>
+<h3 class="sub" data-id="Organisasi dan volunteer" data-en="Organizations and volunteering">Organisasi dan volunteer</h3>
+<ul class="cl">
+<li><b>BRAIL Polibatam</b><span data-id="Tim robotika: Delivery Robot, KRAI, robot hockey" data-en="Robotics team: Delivery Robot, KRAI, hockey robot">Tim robotika: Delivery Robot, KRAI, robot hockey</span></li>
+<li><b data-id="Volunteer Advantech Workshop" data-en="Advantech Workshop Volunteer">Volunteer Advantech Workshop</b><span data-id="Product demonstration · 2025" data-en="Product demonstration · 2025">Product demonstration · 2025</span></li>
+<li><b data-id="Panitia Perlengkapan Polibatam Fair" data-en="Equipment Committee, Polibatam Fair">Panitia Perlengkapan Polibatam Fair</b><span>BEM Polibatam · 2024</span></li>
+<li><b>Mapala Polibatam</b><span data-id="Divisi Susur Pantai · 2023" data-en="Coastal Trek Division · 2023">Divisi Susur Pantai · 2023</span></li>
+</ul>
+</div></section>
+
+<section id="projects"><div class="w">
+<h2 data-id="Proyek" data-en="Projects">Proyek</h2>
+<div class="st">
+<div class="stt"><button data-sm="v" id="smV" aria-pressed="true"></button><button data-sm="s" id="smS" aria-pressed="false"></button></div>
+<div class="stg"><div class="stf" id="stF"></div><div class="stl" id="stL"></div></div>
+<div class="stc" id="stC"></div>
+</div>
+<div class="flt" id="flt"></div>
+<div class="pg" id="pg"></div>
+<div class="deck"><div><h3 data-id="Portofolio lengkap dan dokumentasi" data-en="Full portfolio and documentation">Portofolio lengkap dan dokumentasi</h3><p class="mu" data-id="Slide portofolio, PDF portofolio, dan arsip foto dokumentasi lapangan. Semua dibuka langsung di halaman ini." data-en="Portfolio slides, portfolio PDF and the field documentation photo archive. All open right on this page.">Slide portofolio, PDF portofolio, dan arsip foto dokumentasi lapangan. Semua dibuka langsung di halaman ini.</p></div>
+<div class="btns"><a class="b p" data-md="1" href="https://www.canva.com/design/DAHZqhD0uSI/vM3vetnRmSuoTq4tVZdffA/view" data-id="Slide portofolio" data-en="Portfolio slides">Slide portofolio</a><a class="b" data-md="1" href="https://drive.google.com/file/d/1KgNL9tgDa-vLNPjpdEuUbo_tpQe5CfMw/view" data-id="PDF portofolio" data-en="Portfolio PDF">PDF portofolio</a><a class="b" data-md="1" href="https://drive.google.com/drive/folders/14La4RWOgn3dhUyCy-PdB0lYGyO0NXoEi" data-id="Dokumentasi lapangan" data-en="Field documentation">Dokumentasi lapangan</a></div></div>
+</div></section>
+
+<section id="thesis"><div class="w">
+<h2 data-id="Tugas akhir terapan" data-en="Applied thesis">Tugas akhir terapan</h2>
+<div class="two">
+<div><h3 class="th" data-id="Pengembangan Sistem Penguncian Berbasis Kode QR untuk Robot Delivery Menggunakan Firebase Realtime Database" data-en="Development of a QR Code-Based Locking System for a Delivery Robot Using Firebase Realtime Database">Pengembangan Sistem Penguncian Berbasis Kode QR untuk Robot Delivery Menggunakan Firebase Realtime Database</h3>
+<p class="mu" data-id="Pembimbing: Anugerah Wibisana, S.Tr.T., M.Tr.T · Politeknik Negeri Batam, 2026" data-en="Supervisor: Anugerah Wibisana, S.Tr.T., M.Tr.T · Politeknik Negeri Batam, 2026">Pembimbing: Anugerah Wibisana, S.Tr.T., M.Tr.T · Politeknik Negeri Batam, 2026</p>
+<p style="margin:16px 0 22px;color:var(--tx2)" data-id="Sistem otentikasi statis seperti RFID mudah dikloning, sehingga serah terima robot pengantar otonom perlu diamankan. Penelitian ini mengusulkan penguncian berbasis kode QR dinamis: GUI Python membuat kode unik 6 digit tiap 30 detik, Firebase Realtime Database menjadi perantara berlatensi rendah untuk aplikasi pemindai Android, dan Mealy Finite State Machine mengatur logika kontainer lewat sensor ultrasonik dan magnetik. Uji fungsional menunjukkan keberhasilan 100% pada pembuatan kode dan aktuasi kunci." data-en="Static authentication such as RFID is easy to clone, so the handover of an autonomous delivery robot must be secured. This work proposes dynamic QR-based locking: a Python GUI generates a unique 6-digit code every 30 seconds, Firebase Realtime Database acts as a low-latency broker for an Android scanning app, and a Mealy Finite State Machine manages the container logic through ultrasonic and magnetic sensors. Functional tests showed a 100% success rate in code generation and lock actuation.">Sistem otentikasi statis seperti RFID mudah dikloning, sehingga serah terima robot pengantar otonom perlu diamankan. Penelitian ini mengusulkan penguncian berbasis kode QR dinamis: GUI Python membuat kode unik 6 digit tiap 30 detik, Firebase Realtime Database menjadi perantara berlatensi rendah untuk aplikasi pemindai Android, dan Mealy Finite State Machine mengatur logika kontainer lewat sensor ultrasonik dan magnetik. Uji fungsional menunjukkan keberhasilan 100% pada pembuatan kode dan aktuasi kunci.</p>
+<div class="btns"><a class="b p" data-md="1" href="https://youtu.be/lP2Zt5y9WQ0" data-id="Putar video demo" data-en="Play demo video">Putar video demo</a><button class="b" id="bib" data-id="Salin BibTeX" data-en="Copy BibTeX">Salin BibTeX</button></div></div>
+<div class="mets"><div><b>100%</b><span data-id="Uji buka kunci berhasil (10 dari 10 percobaan)" data-en="Lock-opening tests passed (10 of 10 trials)">Uji buka kunci berhasil (10 dari 10 percobaan)</span></div><div><b>30 s</b><span data-id="Masa berlaku token QR" data-en="QR token validity">Masa berlaku token QR</span></div><div><b>6</b><span data-id="Digit token acak, 10 uji tanpa duplikat" data-en="Random token digits, 10 tests with no duplicates">Digit token acak, 10 uji tanpa duplikat</span></div></div>
+</div>
+<h3 class="sub" data-id="Alur sistem (klik tiap tahap)" data-en="System flow (click each stage)">Alur sistem (klik tiap tahap)</h3>
+<div class="flow" id="flow"></div><div class="fd" id="fd"></div>
+</div></section>
+
+
+<section id="skills"><div class="w">
+<h2 data-id="Keahlian" data-en="Skills">Keahlian</h2>
+<div class="rdw"><div id="rd"></div><div class="rdi" id="rdI"></div></div>
+<div class="sk">
+<div><h3 data-id="Kelistrikan & otomasi" data-en="Electrical & automation">Kelistrikan & otomasi</h3><div class="tags"><span>PLC Schneider</span><span>Ladder Logic</span><span>Relay self-holding</span><span>Wiring AC/DC</span><span>Arduino</span><span>ESP32</span><span>Multimeter</span></div></div>
+<div><h3>Maintenance</h3><div class="tags"><span>Preventive maintenance</span><span>Troubleshooting</span><span>Continuous improvement</span><span>Spare part</span><span>Mesin PCBA</span></div></div>
+<div><h3 data-id="Keselamatan kerja" data-en="Safety">Keselamatan kerja</h3><div class="tags"><span>Ahli K3 Umum</span><span>SMK3</span><span>HIRADC</span><span>SOP</span></div></div>
+<div><h3 data-id="Rekayasa & desain" data-en="Engineering & design">Rekayasa & desain</h3><div class="tags"><span>SolidWorks</span><span>Precision machining</span><span>Chassis robot</span><span>Enclosure</span></div></div>
+<div><h3 data-id="Perangkat lunak" data-en="Software">Perangkat lunak</h3><div class="tags"><span>Python</span><span>Tkinter</span><span>C/C++</span><span>Firebase</span><span>Blynk</span><span>Google Colab</span></div></div>
+<div><h3 data-id="Alat bantu" data-en="Tools">Alat bantu</h3><div class="tags"><span>Universal Robots</span><span>Factory I/O</span><span>Microsoft Office</span><span>Canva</span></div></div>
+</div></div></section>
+
+<section id="certs"><div class="w">
+<h2 data-id="Sertifikat & prestasi" data-en="Certificates & achievements">Sertifikat & prestasi</h2>
+<div class="ac3">
+<div><b data-id="Juara 3" data-en="3rd Place">Juara 3</b><span data-id="Teknologi Tepat Guna, PBL Expo Polibatam 2024" data-en="Appropriate Technology, PBL Expo Polibatam 2024">Teknologi Tepat Guna, PBL Expo Polibatam 2024</span></div>
+<div><b data-id="Juara 3" data-en="3rd Place">Juara 3</b><span data-id="Teknologi Tepat Guna, Kepri Engineering Expo 2023" data-en="Appropriate Technology, Kepri Engineering Expo 2023">Teknologi Tepat Guna, Kepri Engineering Expo 2023</span></div>
+<div><b data-id="Juara 2" data-en="2nd Place">Juara 2</b><span data-id="KRAI, Kontes Robot Indonesia Regional 1 2023" data-en="KRAI, Indonesian Robot Contest Region 1 2023">KRAI, Kontes Robot Indonesia Regional 1 2023</span></div>
+</div>
+<h3 class="sub" data-id="Kredensial terverifikasi" data-en="Verified credentials">Kredensial terverifikasi</h3>
+<div class="vt"><div class="flt" id="cflt"></div><input id="cq" type="search" aria-label="Search"></div>
+<div class="cr" id="crl" data-grp></div>
+</div></section>
+
+<section id="contact"><div class="w"><div class="ct">
+<h2 data-id="Mari bicara tentang peran berikutnya." data-en="Let’s talk about your next role.">Mari bicara tentang peran berikutnya.</h2>
+<p class="mu" data-id="Tersedia mulai 24 Desember 2026. Berbasis di Batam, terbuka untuk bekerja di luar Batam." data-en="Available from 24 December 2026. Based in Batam, open to working outside Batam.">Tersedia mulai 24 Desember 2026. Berbasis di Batam, terbuka untuk bekerja di luar Batam.</p>
+<div class="btns">
+<a class="b p" href="mailto:mahdi130803@gmail.com">mahdi130803@gmail.com</a>
+<a class="b" href="https://wa.me/62895401107212" target="_blank" rel="noopener">WhatsApp</a>
+<a class="b" href="https://www.linkedin.com/in/mahdi-nm/" target="_blank" rel="noopener">LinkedIn</a>
+<a class="b" href="https://canva.link/9yf4q3iu4x22kkj" target="_blank" rel="noopener" data-id="Portofolio visual" data-en="Visual portfolio">Portofolio visual</a>
+<a class="b" href="#" id="cv2" download><span data-id="Unduh CV" data-en="Download CV">Unduh CV</span></a>
+</div>
+<div class="qc"><input id="qn" aria-label="Name"><select id="qp" aria-label="Position"></select><textarea id="qm" aria-label="Note"></textarea>
+<div class="btns"><button class="b p" id="qw">WhatsApp</button><button class="b" id="qe">Email</button><button class="b" id="qcp"></button></div></div>
+</div></div></section>
+</main>
+<footer><div class="w">© 2026 Mahdi Ni’am Ma’ruf · Batam, Indonesia</div></footer>
+
+<dialog id="md" aria-label="Viewer"><div class="mh"><div id="mn" class="mnav"></div><a id="mx" target="_blank" rel="noopener" data-id="Buka di tab baru" data-en="Open in new tab">Buka di tab baru</a><button id="mc" aria-label="Close">✕</button></div><div class="mbd"><iframe id="mf" title="Viewer" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div></dialog>
+<dialog id="cs" aria-label="Case study"><div class="mh"><b id="cst"></b><button id="csx" aria-label="Close">✕</button></div><div class="csb" id="csb"></div></dialog>
+<dialog id="cp" aria-label="Command palette"><input id="cpq" aria-label="Search"><ul id="cpl"></ul></dialog>
+<div class="ts" id="ts" role="status" aria-live="polite"></div>
+<script>
+(function(){
+var L='id',$=function(i){return document.getElementById(i)};
+var PRIVATE=false; /* true = tampilkan pratinjau ijazah & transkrip */
+var EM='mahdi130803@gmail.com',WA='62895401107212';
+var cv={id:'cv/Mahdi_Niam_Maruf_CV_ID.pdf',en:'cv/Mahdi_Niam_Maruf_CV_EN.pdf'};
+function T(a){return L==='id'?a[0]:a[1]}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
+function toast(m){var t=$('ts');t.textContent=m;t.classList.add('on');clearTimeout(toast.h);toast.h=setTimeout(function(){t.classList.remove('on')},2400)}
+var YT=function(i){return 'https://youtu.be/'+i};
+var P=[
+{c:'PRJ-01',y:'2024–2026',t:'Smart QR Lock System Cloud Integration',s:['Tugas Akhir','Final project'],a:1,f:1,g:['Python','Firebase','Android','Arduino','FSM'],v:[['lP2Zt5y9WQ0',['Demo utama','Main demo']],['64YOYXeSFu0',['Kunci hardware','Hardware lock']]],
+ d:['Kunci kontainer robot pengantar dengan token QR 6 digit yang berganti tiap 30 detik. Arsitektur master-slave: GUI laptop sebagai master, aplikasi Android sebagai pemindai, Arduino Nano di tiap kontainer, Firebase Realtime Database sebagai perantara, solenoid 12V, serta sensor ultrasonik dan magnetik.','A delivery-robot container lock with a 6-digit QR token that changes every 30 seconds. Master-slave architecture: a laptop GUI as master, an Android scanner app, an Arduino Nano in each container, Firebase Realtime Database as broker, a 12V solenoid, and ultrasonic and magnetic sensors.'],
+ x:{c:['RFID memakai ID statis yang mudah dikloning, sehingga isi kontainer robot pengantar rawan dibuka orang tidak berwenang.','RFID uses static IDs that are easy to clone, leaving the delivery robot’s cargo open to unauthorized access.'],s:['GUI Python membuat token acak 6 digit tiap 30 detik, dipindai lewat aplikasi Android, diverifikasi master lewat Firebase, lalu Arduino slave membuka solenoid sesuai Mealy FSM.','A Python GUI generates a random 6-digit token every 30 seconds, scanned by an Android app, verified by the master through Firebase, then the Arduino slave opens the solenoid following a Mealy FSM.'],r:['Uji buka kunci berhasil 100% (10 dari 10 percobaan di dua kontainer), 10 kode acak tanpa duplikat, dan latensi diuji pada tiga skenario jaringan. Paper sedang direvisi.','Lock opening succeeded 100% (10 of 10 trials across two containers), 10 random codes with no duplicates, and latency tested over three network scenarios. The paper is under revision.']}},
+{c:'PRJ-02',y:'2023–2024',t:'IoT Food Delivery Monitoring System',s:['Juara 3 TTG PII Kepri','3rd Place TTG PII Kepri'],a:1,g:['ESP32','Blynk','IoT'],v:[['AVTn1y1e9sE',['Video lomba','Competition video']],['lOcJgZbW_ao',['Video pengembangan','Development video']]],d:['Pemantauan suhu dan status tutup kompartemen tas pengantar makanan secara real-time lewat sensor fisik dan aplikasi Blynk, untuk menjaga kualitas makanan selama perjalanan.','Real-time monitoring of temperature and compartment lid status for food delivery bags using physical sensors and the Blynk app, to preserve food quality in transit.']},
+{c:'PRJ-03',y:'2024',t:'Autonomous Delivery Robot & Chassis Design',s:['Juara 3 PBL Expo','3rd Place PBL Expo'],a:1,g:['SolidWorks','LiDAR','Power'],v:[['8rZr9ahoSGA',['Video lomba','Competition video']],['gdv8eXKOlq8',['Video 2','Video 2']]],d:['Robot pengantar otonom antar gedung kampus. Peran saya: sistem kunci pintar kontainer. Proyek ini mencakup desain sasis 3D SolidWorks, distribusi daya DC modular, dan navigasi LiDAR 2D.','An autonomous robot delivering between campus buildings. My role: the smart container lock. The project covers a SolidWorks 3D chassis design, modular DC power distribution and 2D LiDAR navigation.']},
+{c:'PRJ-04',y:'2024',t:'Robot Control Graphical User Interface',a:1,g:['Python','Tkinter','Wi-Fi'],v:[['LlP-yTSFzgs',['Video demo','Demo video']],['EV4WOSTZUoI',['Video lain','More video']]],d:['GUI Python (Tkinter) dua arah dengan komunikasi Wi-Fi untuk teleoperasi robot tanpa kabel: perintah gerak, telemetri gyroscope, akselerometer, suhu, dan tombol Emergency Stop.','A two-way Python (Tkinter) GUI over Wi-Fi for cable-free robot teleoperation: motion commands, gyroscope, accelerometer and temperature telemetry, and an Emergency Stop button.']},
+{c:'PRJ-05',y:'2022–2023',t:'Autonomous Hockey Robot',a:1,g:['Arduino','SolidWorks','Sensor IR'],v:[['3gaFvKruAv0',['Video demo robot','Robot demo']],['A327Ufc9T0M',['Video desain','Design video']]],d:['Robot kompetisi 20 cm × 20 cm yang dibangun dari nol: desain CAD 3D, wiring, sensor IR pelacak bola dan gawang, limit switch dinding, serta logika navigasi otonom. Didemokan di PBL Expo 2022.','A 20 cm × 20 cm competition robot built from scratch: 3D CAD design, wiring, IR ball and goal sensors, wall limit switches and autonomous navigation logic. Demonstrated at PBL Expo 2022.']},
+{c:'PRJ-06',y:'2023',t:'Barelang V — KRAI',s:['Juara 2 KRI Regional 1','2nd Place KRI Regional 1'],a:1,g:['Machining','Pneumatik','Aluminium'],v:[],d:['Sebagai Mechanical Fabricator, saya mengerjakan fabrikasi presisi aluminium, permesinan, dan perakitan sasis serta aktuator pelontar pneumatik robot Kontes Robot Abu Indonesia.','As Mechanical Fabricator I handled precision aluminium fabrication, machining and assembly of the chassis and the pneumatic launcher actuator for the Indonesian Abu Robot Contest.']},
+{c:'PRJ-07',y:'2025',t:'Schneider PLC & Factory I/O Conveyor Sorting',a:1,g:['PLC','Ladder Logic','Factory I/O'],v:[['1DicPaVRyaU',['Video 1','Video 1']],['S9O3fnKmLrI',['Video 2','Video 2']]],d:['Ladder logic Schneider PLC untuk sistem sortir konveyor pada pabrik 3D Factory I/O. Logika divalidasi lewat virtual commissioning sebelum ke perangkat keras.','Schneider PLC ladder logic for a conveyor sorting system in a Factory I/O 3D plant, validated through virtual commissioning before hardware.']},
+{c:'PRJ-08',y:'2025',t:'Hybrid Classical & Quantum Machine Learning',g:['Python','Google Colab','QML'],v:[],l:[['https://www.canva.com/design/DAGlVO_QNDw/ur-QN6GFnUlpOW4phLq8wg/view',['Lihat presentasi','View presentation']]],d:['Studi komparasi performa model Machine Learning klasik dan algoritma Quantum ML untuk prediksi kondisi jantung, memakai dataset Kaggle dan Google Colab.','A performance comparison of classical Machine Learning models and Quantum ML algorithms for heart condition prediction, using Kaggle data and Google Colab.']},
+{c:'PRJ-09',y:'2025–2026',t:'Automated Library Book Drop Box',a:1,g:['RFID','Sensor IR','SolidWorks'],v:[],d:['Stasiun pengembalian buku otomatis Polibatam: sensor inframerah membuka pintu dan mendeteksi buku, RFID reader, website status buku real-time, dan enclosure 3D SolidWorks.','An automated book-return station for Polibatam: infrared sensors open the door and detect the book, an RFID reader, a real-time book status website and a 3D SolidWorks enclosure.']},
+{c:'PRJ-10',y:'2026',t:'PCBA Line Automation & Maintenance Kaizen',s:['PT SIIX Electronics','PT SIIX Electronics'],a:1,g:['Relay 24V DC','Wiring','SOP'],v:[],d:['Tiga perbaikan di mesin PCBA: reminder pembersihan protective sheet dengan alarm dan tombol konfirmasi, pemutus suplai udara otomatis (relay self-holding 24V DC) pada mesin glue, serta wiring paralel Battery Tester untuk dua mesin.','Three improvements on PCBA machines: a protective sheet cleaning reminder with alarm and confirm button, an automatic air cut-off (24V DC self-holding relay) on the glue machine, and parallel Battery Tester wiring for two machines.'],
+ x:{c:['Reject akibat residu di protective sheet, overspray lem saat pergantian unit, dan satu Battery Tester yang membatasi output.','Rejects caused by residue on protective sheets, glue overspray between units, and a single Battery Tester limiting output.'],s:['Alarm dan tombol konfirmasi kuning di akhir tiap siklus, relay self-holding 24V DC pemutus udara, dan wiring paralel dari skematik untuk dua mesin.','An alarm and yellow confirm button every cycle, a 24V DC self-holding relay cutting the air, and parallel wiring from schematics for two machines.'],r:['SOP dipatuhi, reject dan limbah material turun, pemakaian lem berkurang, dan output pengujian naik. Data angka tidak dipublikasikan karena kerahasiaan perusahaan.','SOP enforced, fewer rejects and less material waste, lower glue use and higher test output. Figures are not published for company confidentiality.']}},
+{c:'PRJ-11',y:'2024',t:'Universal Robot Manipulator',a:1,g:['Universal Robots','Cobot','Palletizing'],v:[['09VDJHu1B-Q',['Video 1','Video 1']],['cF3Vsa3P1l0',['Video 2','Video 2']],['g7y-vibtRRc',['Video 3','Video 3']],['uYV2znaqzOY',['Video 4','Video 4']]],d:['Memprogram lengan Universal Robot dengan teach pendant: rutinitas palletizing dan waypoint teaching untuk simulasi otomasi industri dengan cobot.','Programmed a Universal Robot arm with a teach pendant: palletizing routines and waypoint teaching for industrial automation simulation with cobots.']}
+];
+var CR=[
+['Ahli K3 Umum (SKKNI)','Heccons Learning & Consulting · Des 2025','k3','1MUpNOhYU7thzQe73A0sNjnvHKBW9w3wn'],
+['TOEIC Score Report: 645','ETS / Polibatam · L 380, R 265 · 2026','acd','1zmkTCTHxS5iTC68j2KnRRJ6U8MM9sUMq'],
+['CB3 Industrial Collaborative Robots','Universal Robots Academy · 2024','rob','1lvITJmo93d9zBFETrM6dmkMGpl8wGwgW'],
+['Introduction to Robotics on AWS','AWS Training and Certification · Jun 2024','rob','19N1OP-eg2zg1xB8QrFLuyUcp7yHjGtSW'],
+['Introduction to Onshape Simulation (FEA)','Onshape / PTC · Nov 2023','rob','1y9mGt8Ss6MWsGVOAlCpWDioZBWwDGQ6x'],
+['HerTech 2026 Skilled Worker','ICT Watch × Google.org × ADB · 2026','ai','1plKIvPeW0RlApRoCgx2kwnRo19oP1vJU'],
+['IBM SkillsBuild Wave 5: AI & Cloud','Hacktiv8 × IBM · Agu 2025','ai','1O5sY4SKzsJfjY5cBs3hd9538PPuP62Pk'],
+['Data Classification and Summarization (IBM Granite)','IBM SkillsBuild MDL-565 · Jul 2025','ai','1Y7ulxxtB2iJphUHAinUIhaBJjtfvl06K'],
+['Classifying Data (IBM Granite)','IBM SkillsBuild MDL-563 · Jul 2025','ai','1cplbT9d4YNASC8CL_ZNZXAxRnuA6HobD'],
+['Summarizing Data (IBM Granite)','IBM SkillsBuild MDL-564 · Jul 2025','ai','1-lVpT7qUMFjWLSjwXGSSEfeeMY_itjn1'],
+['Fundamental K3: ISO 9001, 14001, 45001','GreenSkill ID · Des 2025','k3','1t-kvqqXF7RA71CnEAagW1Cx6IcQxCwSW'],
+['Juara 3 TTG, Kepri Engineering Expo','PII Kepri · Des 2023','awd','1-9MQq4CE8FnPkuLFBIDf-fBAD8JfF6Sn'],
+['Juara 3 Teknologi Tepat Guna, PBL Expo','Politeknik Negeri Batam · Agu 2024','awd','11jmMd6d6L0AdXFO9vTZE2XIrO7UTVdrm'],
+['Panitia Perlengkapan Polibatam Fair 2024','BEM Politeknik Negeri Batam · Agu 2024','awd','1i9na52QOsRHUyCVTeixH3MAHaBBMEoPN'],
+['Ijazah Sarjana Terapan (S.Tr.T.)','Politeknik Negeri Batam · 2026','acd','140f_Q7vl7sx_5nRD-Xg1gL_57k4srEW8',1],
+['Transkrip Akademik (IPK 3,83)','Politeknik Negeri Batam · 2026','acd','1bHC8j97DJkihTnSN1qNSqfSTs8Z9S9XQ',1]
+];
+var CF=[['all',['Semua','All']],['k3',['K3 & Safety','K3 & Safety']],['rob',['Robotika & Cloud','Robotics & Cloud']],['ai',['AI & Data','AI & Data']],['awd',['Penghargaan','Awards']],['acd',['Akademik','Academic']]];
+var PF=[['all',['Semua proyek','All projects']],['v',['Dengan video','With video']],['a',['Otomasi / IoT / CAD','Automation / IoT / CAD']]];
+var D=[['Deck 01','https://www.canva.com/design/DAHa3ntBAT0/TCBQIiHxbdubBy-n6dX9kA/view'],['Deck 02','https://www.canva.com/design/DAHZqhD0uSI/vM3vetnRmSuoTq4tVZdffA/view']];
+var RD=[[['Otomasi','Automation'],94,['PLC Schneider, ladder logic, relay self-holding, Factory I/O, Universal Robots','Schneider PLC, ladder logic, self-holding relays, Factory I/O, Universal Robots']],[['Maintenance','Maintenance'],92,['Mesin PCBA (NPM, AOI, FCT, Wire Bonding), preventive maintenance, troubleshooting, spare part','PCBA machines (NPM, AOI, FCT, Wire Bonding), preventive maintenance, troubleshooting, spare parts']],[['IoT & Cloud','IoT & Cloud'],95,['Firebase Realtime Database, Blynk, ESP32, aplikasi Android, master-slave','Firebase Realtime Database, Blynk, ESP32, Android app, master-slave']],[['CAD 3D','3D CAD'],91,['SolidWorks, Onshape, sasis robot, enclosure','SolidWorks, Onshape, robot chassis, enclosures']],[['Ahli K3','OHS Expert'],93,['Ahli K3 Umum SKKNI, SMK3, HIRADC, ISO 9001/14001/45001','Certified General OHS Expert, SMK3, HIRADC, ISO 9001/14001/45001']],[['AI & Data','AI & Data'],88,['Machine Learning Google Colab, QML, IBM Granite, HerTech','Machine Learning on Google Colab, QML, IBM Granite, HerTech']]];
+var N=[[['Client','Client'],['QR dinamis & aplikasi Android','Dynamic QR & Android app'],['GUI Python membuat token acak 6 digit yang dirender sebagai QR dan berganti tiap 30 detik. Aplikasi Android memindai QR lalu mengunggah isinya ke database.','The Python GUI creates a random 6-digit token rendered as a QR code that changes every 30 seconds. The Android app scans it and uploads the content to the database.']],
+[['Cloud','Cloud'],['Firebase Realtime Database','Firebase Realtime Database'],['Node QR_Generator_1 dan QR_Generator_2 memisahkan tiap kontainer, sedangkan node QR_Scanner menjadi buffer input aplikasi. Data tersinkron real-time antara aplikasi dan master.','Nodes QR_Generator_1 and QR_Generator_2 separate each container, while the QR_Scanner node is the app’s input buffer. Data syncs in real time between the app and the master.']],
+[['Master–Slave','Master–Slave'],['Kontroler & Mealy FSM','Controller & Mealy FSM'],['Laptop master mencocokkan data scan dengan kode aktif, lalu mengirim perintah serial ke Arduino Nano di kontainer terkait. Status: Locked, Scan, Unlocked, Awaiting Action, Awaiting Closure.','The master laptop matches scanned data with the active code, then sends a serial command to the Arduino Nano of that container. States: Locked, Scan, Unlocked, Awaiting Action, Awaiting Closure.']],
+[['Aktuator','Actuator'],['Solenoid 12V & sensor','12V solenoid & sensors'],['Solenoid 12V dikendalikan modul relay, sensor ultrasonik mendeteksi barang, sensor magnetik membaca status tutup, dan buzzer mengingatkan pengguna menutup pintu.','A 12V solenoid driven by a relay module, an ultrasonic sensor detecting the item, a magnetic sensor reading lid status, and a buzzer reminding the user to close the door.']]];
+var QP=[['Robotics & Automation Engineer'],['Maintenance Engineer'],['Ahli K3 Umum / HSE Officer'],['IoT & Embedded Systems Engineer']];
+var vids=[];P.forEach(function(p){p.v.forEach(function(x){vids.push({id:x[0],t:p.t,l:x[1]})})});
+/* embed */
+function emb(u){var m;
+if(m=u.match(/(?:youtu\.be\/|shorts\/|v=)([\w-]{11})/))return'https://www.youtube-nocookie.com/embed/'+m[1]+'?autoplay=1&rel=0';
+if(m=u.match(/canva\.com\/design\/[^?#]+/))return'https://www.'+m[0].replace(/\/(edit|view)$/,'/view')+'?embed';
+if(m=u.match(/drive\.google\.com\/file\/d\/([\w-]+)/))return'https://drive.google.com/file/d/'+m[1]+'/preview';
+if(m=u.match(/drive\/folders\/([\w-]+)/))return'https://drive.google.com/embeddedfolderview?id='+m[1]+'#grid';
+return u}
+/* modal viewer */
+var md=$('md'),mf=$('mf'),mn=$('mn'),mx=$('mx'),grp=[],cur=0;
+function show(i){cur=i;var a=grp[i];mf.src=emb(a.href);mx.href=a.href;mn.innerHTML='';
+if(grp.length>8){var p=document.createElement('button'),n=document.createElement('button'),l=document.createElement('span');p.textContent='‹';n.textContent='›';l.textContent=(i+1)+'/'+grp.length+' · '+((a.dataset&&a.dataset.t)||a.textContent.trim());l.style.cssText='font-size:13px;color:var(--mu);align-self:center';p.onclick=function(){show((cur+grp.length-1)%grp.length)};n.onclick=function(){show((cur+1)%grp.length)};mn.append(p,l,n)}
+else if(grp.length>1)grp.forEach(function(g,k){var b=document.createElement('button');b.textContent=(g.dataset&&g.dataset.t)||g.textContent.trim();b.setAttribute('aria-current',k===i);b.onclick=function(){show(k)};mn.appendChild(b)})}
+function openG(g,i){grp=g;show(i||0);if(!md.open)md.showModal()}
+function openU(u,t){openG([{href:u,textContent:t}],0)}
+/* render */
+function art(p){var s='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180"><rect width="320" height="180" fill="#121215"/><defs><pattern id="d" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2a2a33"/></pattern></defs><rect width="320" height="180" fill="url(#d)"/><rect x="40" y="52" width="240" height="76" rx="10" fill="none" stroke="#2F7BFF" stroke-opacity=".6"/><text x="160" y="96" font-family="Arial" font-size="26" font-weight="700" fill="#ededf0" text-anchor="middle">'+p.c+'</text><text x="160" y="118" font-family="Arial" font-size="11" fill="#9a9aa6" text-anchor="middle">'+p.g.slice(0,3).join(' · ')+'</text></svg>';return'data:image/svg+xml,'+encodeURIComponent(s)}
+var pf='all',cf='all',cq='',sm='v',sv=0,sd=0;
+function chips(id,arr,cur,key){$(id).innerHTML=arr.map(function(x){return'<button data-'+key+'="'+x[0]+'" aria-pressed="'+(x[0]===cur)+'">'+T(x[1])+'</button>'}).join('')}
+function rp(){chips('flt',PF,pf,'pf');var h='';
+P.forEach(function(p,i){if(pf==='v'&&!p.v.length)return;if(pf==='a'&&!p.a)return;
+var lk=p.l||[],first=p.v.length?YT(p.v[0][0]):(lk[0]?lk[0][0]:''),
+cov='<img src="'+(p.v.length?'https://img.youtube.com/vi/'+p.v[0][0]+'/hqdefault.jpg':art(p))+'" alt="" loading="lazy">',
+mp=first?'<a class="mp" data-md="1" href="'+first+'" aria-label="Play">'+cov+'<span class="pl">▶</span></a>':'<div class="mp">'+cov+'</div>',vl='';
+p.v.forEach(function(x){vl+='<a data-md="1" href="'+YT(x[0])+'">'+T(x[1])+'</a>'});lk.forEach(function(x){vl+='<a data-md="1" href="'+x[0]+'">'+T(x[1])+'</a>'});
+if(p.x)vl+='<button class="lb" data-cs="'+i+'">'+T(['Studi kasus','Case study'])+'</button>';
+h+='<article class="pc'+(p.f?' f':'')+'" data-grp>'+mp+'<div class="pb"><h3>'+p.t+'</h3><div class="yr">'+p.c+' · '+p.y+(p.s?' · '+T(p.s):'')+'</div><p>'+T(p.d)+'</p><div class="tags">'+p.g.map(function(g){return'<span>'+g+'</span>'}).join('')+'</div>'+(vl?'<div class="vl">'+vl+'</div>':'')+'</div></article>'});
+$('pg').innerHTML=h}
+function rl(){$('smV').textContent='Video ('+vids.length+')';$('smS').textContent=T(['Slide Canva (2 deck)','Canva slides (2 decks)']);
+$('smV').setAttribute('aria-pressed',sm==='v');$('smS').setAttribute('aria-pressed',sm==='s');
+var l='',c='';
+if(sm==='v'){vids.forEach(function(v,i){l+='<button data-sv="'+i+'" aria-current="'+(i===sv)+'">'+(i+1)+'. '+v.t+' · '+T(v.l)+'</button>'});
+c='<button class="b sm" data-st="-1">‹ '+T(['Sebelumnya','Prev'])+'</button><button class="b sm" data-st="1">'+T(['Berikutnya','Next'])+' ›</button><a class="b sm" target="_blank" rel="noopener" href="'+YT(vids[sv].id)+'">'+T(['Buka di YouTube','Open on YouTube'])+'</a>'}
+else{D.forEach(function(x,i){l+='<button data-sd="'+i+'" aria-current="'+(i===sd)+'">'+x[0]+'</button>'});
+c='<input id="cuu" placeholder="'+T(['Tempel tautan Canva lain…','Paste another Canva link…'])+'" aria-label="Canva link"><button class="b sm" id="cug">'+T(['Muat','Load'])+'</button>'}
+$('stL').innerHTML=l;$('stC').innerHTML=c}
+function rs(load){var f=$('stF');
+if(sm==='v'){var v=vids[sv];f.innerHTML=load?'<iframe src="'+emb(YT(v.id))+'" title="'+esc(v.t)+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>':'<button class="poster" id="stP" aria-label="Play"><img src="https://img.youtube.com/vi/'+v.id+'/hqdefault.jpg" alt=""><span class="pl big">▶</span></button>'}
+else f.innerHTML='<iframe src="'+emb(D[sd][1])+'" title="Canva" allowfullscreen loading="lazy"></iframe>'}
+function rc(){chips('cflt',CF,cf,'cf');$('cq').placeholder=T(['Cari kredensial…','Search credentials…']);var h='',q=cq.toLowerCase();
+CR.forEach(function(c){if(cf!=='all'&&c[2]!==cf)return;if(q&&(c[0]+' '+c[1]).toLowerCase().indexOf(q)<0)return;
+var lock=c[4]&&!PRIVATE,u='https://drive.google.com/file/d/'+c[3]+'/view';
+h+='<div class="crd"><div><b>'+c[0]+'</b><span>'+c[1]+'</span></div><div class="btns">'+(lock?'<a class="b sm" href="mailto:'+EM+'?subject='+encodeURIComponent(c[0])+'">'+T(['Tersedia atas permintaan','Available on request'])+'</a>':'<a class="b sm" data-md="1" data-t="'+esc(c[0])+'" href="'+u+'">'+T(['Pratinjau','Preview'])+'</a><a class="b sm" target="_blank" rel="noopener" href="'+u+'">'+T(['Buka file','Open file'])+'</a>')+'</div></div>'});
+$('crl').innerHTML=h||'<p class="mu">'+T(['Tidak ada hasil.','No results.'])+'</p>'}
+var ai=0;
+function rr(){var R0=120,cx=180,cy=165,pts=[],lab='',dots='',ax='';
+RD.forEach(function(r,i){var a=(-90+i*60)*Math.PI/180,x=cx+Math.cos(a)*R0,y=cy+Math.sin(a)*R0,v=r[1]/100,px=cx+Math.cos(a)*R0*v,py=cy+Math.sin(a)*R0*v,lx=cx+Math.cos(a)*(R0+26),ly=cy+Math.sin(a)*(R0+26)+4,an=Math.abs(Math.cos(a))<.2?'middle':(Math.cos(a)>0?'start':'end');
+pts.push(px.toFixed(1)+','+py.toFixed(1));ax+='<line class="ax" x1="'+cx+'" y1="'+cy+'" x2="'+x.toFixed(1)+'" y2="'+y.toFixed(1)+'"/>';
+lab+='<text data-ax="'+i+'" x="'+lx.toFixed(1)+'" y="'+ly.toFixed(1)+'" text-anchor="'+an+'">'+T(r[0])+'</text>';dots+='<circle data-ax="'+i+'" cx="'+px.toFixed(1)+'" cy="'+py.toFixed(1)+'" r="'+(i===ai?7:5)+'"/>'});
+var rings='';[.33,.66,1].forEach(function(k){rings+='<polygon class="rg" points="'+RD.map(function(r,i){var a=(-90+i*60)*Math.PI/180;return(cx+Math.cos(a)*R0*k).toFixed(1)+','+(cy+Math.sin(a)*R0*k).toFixed(1)}).join(' ')+'"/>'});
+$('rd').innerHTML='<svg viewBox="0 0 360 330" role="img" aria-label="Competency radar">'+rings+ax+'<polygon class="pg2" points="'+pts.join(' ')+'"/>'+dots+lab+'</svg>';
+var r=RD[ai];$('rdI').innerHTML='<b>'+T(r[0])+' · '+r[1]+'%</b><small>'+T(['Penilaian mandiri','Self-assessed'])+'</small><p style="margin-top:12px">'+T(r[2])+'</p>'}
+var ni=0;
+function rf(){$('flow').innerHTML=N.map(function(n,i){return'<button data-nd="'+i+'" aria-pressed="'+(i===ni)+'">'+(i+1)+'. '+T(n[0])+'<small>'+T(n[1])+'</small></button>'}).join('');$('fd').textContent=T(N[ni][2])}
+function rq(){var s=$('qp'),v=s.value;s.innerHTML=QP.map(function(p){return'<option>'+p[0]+'</option>'}).join('');if(v)s.value=v;
+$('qn').placeholder=T(['Nama / perusahaan Anda','Your name / company']);$('qm').placeholder=T(['Catatan untuk saya (opsional)','A note for me (optional)']);$('qcp').textContent=T(['Salin email','Copy email'])}
+function msg(){var n=$('qn').value.trim(),p=$('qp').value,m=$('qm').value.trim();
+return L==='id'?'Halo Mahdi, saya '+(n||'[nama]')+' tertarik membahas posisi '+p+'.'+(m?' '+m:''):'Hello Mahdi, I am '+(n||'[name]')+' and would like to discuss the '+p+' position.'+(m?' '+m:'')}
+function renderAll(){rp();rl();rc();rr();rf();rq()}
+/* static i18n */
+function set(l){L=l;document.documentElement.lang=l;
+document.querySelectorAll('[data-id]').forEach(function(e){e.innerHTML=e.getAttribute('data-'+l)});
+document.querySelectorAll('.lang button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.l===l)});
+$('cvbtn').href=cv[l];$('cvview').href=cv[l];$('cv2').href=cv[l];
+try{localStorage.setItem('lang',l)}catch(e){}renderAll()}
+function theme(t){document.documentElement.dataset.theme=t;try{localStorage.setItem('theme',t)}catch(e){}}
+/* palette */
+var cp=$('cp'),cpq=$('cpq'),cpl=$('cpl'),cpi=[],cpa=0;
+function cmds(){var c=[];
+[['#about',['Tentang','About']],['#exp',['Pengalaman','Experience']],['#projects',['Proyek','Projects']],['#thesis',['Tugas akhir','Thesis']],['#skills',['Keahlian','Skills']],['#certs',['Sertifikat','Certificates']],['#contact',['Kontak','Contact']]].forEach(function(s){c.push({t:T(['Ke bagian: ','Go to: '])+T(s[1]),k:'nav',run:function(){location.hash=s[0]}})});
+vids.forEach(function(v){c.push({t:v.t+' · '+T(v.l),k:'video',run:function(){openU(YT(v.id),v.t)}})});
+D.forEach(function(d){c.push({t:'Canva '+d[0],k:'slides',run:function(){openU(d[1],d[0])}})});
+CR.forEach(function(r){if(r[4]&&!PRIVATE)return;c.push({t:r[0],k:T(['sertifikat','credential']),run:function(){openU('https://drive.google.com/file/d/'+r[3]+'/view',r[0])}})});
+c.push({t:T(['Ganti bahasa','Switch language']),k:'ID/EN',run:function(){set(L==='id'?'en':'id')}});
+c.push({t:T(['Ganti tema gelap/terang','Toggle dark/light theme']),k:T(['tema','theme']),run:function(){theme(document.documentElement.dataset.theme==='light'?'dark':'light')}});return c}
+function cpr(){var q=cpq.value.toLowerCase();cpi=cmds().filter(function(c){return !q||(c.t+' '+c.k).toLowerCase().indexOf(q)>=0}).slice(0,40);cpa=0;
+cpl.innerHTML=cpi.map(function(c,i){return'<li data-ci="'+i+'" class="'+(i?'':'on')+'">'+esc(c.t)+'<small>'+c.k+'</small></li>'}).join('')}
+function cpo(){cpq.value='';cpq.placeholder=T(['Cari video, slide, sertifikat, atau perintah…','Search videos, slides, credentials or commands…']);cpr();cp.showModal();cpq.focus()}
+function cpx(i){var c=cpi[i];if(!c)return;cp.close();setTimeout(c.run,30)}
+function cps(d){var li=cpl.children;if(!li.length)return;li[cpa].classList.remove('on');cpa=(cpa+d+li.length)%li.length;li[cpa].classList.add('on');li[cpa].scrollIntoView({block:'nearest'})}
+cpq.addEventListener('input',cpr);
+cpq.addEventListener('keydown',function(e){if(e.key==='ArrowDown'){e.preventDefault();cps(1)}else if(e.key==='ArrowUp'){e.preventDefault();cps(-1)}else if(e.key==='Enter'){e.preventDefault();cpx(cpa)}});
+cp.addEventListener('click',function(e){if(e.target===cp)cp.close();var li=e.target.closest('[data-ci]');if(li)cpx(+li.dataset.ci)});
+document.addEventListener('keydown',function(e){if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();cp.open?cp.close():cpo()}});
+$('ckb').onclick=cpo;$('thm').onclick=function(){theme(document.documentElement.dataset.theme==='light'?'dark':'light')};
+/* clicks */
+document.addEventListener('click',function(e){var t=e.target,a=t.closest('a[data-md]');
+if(a&&!e.metaKey&&!e.ctrlKey&&md.showModal){e.preventDefault();var c=a.closest('[data-grp]'),l=c?[].slice.call(c.querySelectorAll('a[data-md]:not(.mp)')):[],g=l.length?l:[a];openG(g,Math.max(0,g.indexOf(a)));return}
+var b=t.closest('[data-sv],[data-sm],[data-sd],[data-st],[data-cs],[data-pf],[data-cf],[data-ax],[data-nd],#stP,#cug,#bib,#qw,#qe,#qcp'),d;if(!b)return;d=b.dataset;
+if(d.sv!=null){sv=+d.sv;rl();rs(true)}else if(d.st!=null){sv=(sv+ +d.st+vids.length)%vids.length;rl();rs(true)}
+else if(d.sm){sm=d.sm;rl();rs(false)}else if(d.sd!=null){sd=+d.sd;rl();rs()}
+else if(d.pf){pf=d.pf;rp()}else if(d.cf){cf=d.cf;rc()}else if(d.ax!=null){ai=+d.ax;rr()}else if(d.nd!=null){ni=+d.nd;rf()}
+else if(d.cs!=null){var p=P[+d.cs];$('cst').textContent=p.t;$('csb').innerHTML=[['Tantangan','Challenge','c'],['Solusi','Solution','s'],['Hasil','Result','r']].map(function(x){return'<div><b>'+T([x[0],x[1]])+'</b>'+T(p.x[x[2]])+'</div>'}).join('');$('cs').showModal()}
+else if(b.id==='stP')rs(true);
+else if(b.id==='cug'){var u=$('cuu').value.trim();if(/canva\.com\/design\//.test(u)){D.push(['Custom',u]);sd=D.length-1;rl();rs()}else if(u){window.open(u,'_blank','noopener');toast(T(['Tautan ini dibuka di tab baru.','Link opened in a new tab.']))}}
+else if(b.id==='bib'){var bt='@thesis{maruf2026qrlock,\n  author = {Ma’ruf, Mahdi Ni’am},\n  title = {Pengembangan Sistem Penguncian Berbasis Kode QR untuk Robot Delivery Menggunakan Firebase Realtime Database},\n  school = {Politeknik Negeri Batam},\n  year = {2026},\n  type = {Tugas Akhir Sarjana Terapan},\n  note = {Pembimbing: Anugerah Wibisana}\n}';
+ (navigator.clipboard?navigator.clipboard.writeText(bt):Promise.reject()).then(function(){toast(T(['BibTeX disalin','BibTeX copied']))},function(){toast(T(['Gagal menyalin, salin manual.','Copy failed, please copy manually.']))})}
+else if(b.id==='qw'){window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(msg()),'_blank','noopener')}
+else if(b.id==='qe'){location.href='mailto:'+EM+'?subject='+encodeURIComponent($('qp').value)+'&body='+encodeURIComponent(msg())}
+else if(b.id==='qcp'){(navigator.clipboard?navigator.clipboard.writeText(EM):Promise.reject()).then(function(){toast(T(['Email disalin','Email copied']))},function(){toast(EM)})}});
+$('cq').addEventListener('input',function(e){cq=e.target.value;rc()});
+document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){set(b.dataset.l)})});
+$('mc').onclick=function(){md.close()};md.addEventListener('click',function(e){if(e.target===md)md.close()});md.addEventListener('close',function(){mf.src='about:blank'});
+$('csx').onclick=function(){$('cs').close()};$('cs').addEventListener('click',function(e){if(e.target===$('cs'))$('cs').close()});
+var links=[].slice.call(document.querySelectorAll('nav ul a')),secs=links.map(function(a){return document.querySelector(a.getAttribute('href'))});
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting)links.forEach(function(a,k){a.classList.toggle('on',secs[k]===x.target)})})},{rootMargin:'-45% 0px -50% 0px'});secs.forEach(function(x){io.observe(x)})}
+var s='id',th='dark';try{s=localStorage.getItem('lang')||((navigator.language||'').indexOf('id')===0?'id':'en');th=localStorage.getItem('theme')||'dark'}catch(e){}
+theme(th);rs(false);set(s);
+})();
+</script>
+</body>
+</html>
